@@ -2,6 +2,8 @@
 
 ## Installations
 - CDN link https://cdnjs.com/libraries/materialize for styling app
+- https://vercel.com/docs for app deployment. must sign up. otherwise, you can only use on local machine
+  - run command npx now and will need node.js
 
 ## Form Submission and Encoding
 - Remove browser default submission to non-existent backend server
