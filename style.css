@@ -1,0 +1,26 @@
+.row {
+  margin: 9vh -9vh;
+}
+
+.share,
+.image {
+  margin: 2rem 0 5px 0;
+}
+
+.share {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.instructions {
+  padding: 0;
+  text-align: center;
+}
+
+.text {
+  margin-top: 2rem;
+}
+
+h1 {
+  margin-top: 0;
+}
