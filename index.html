@@ -8,35 +8,64 @@
   <title>Hidden Message</title>
   <style>
     .row {
-      margin-top: 25vh;
+      margin-top: 15vh;
+      padding-bottom: 15vh;
     }
 
     h1 {
       margin-top: 0;
     }
+
+    .share,
+    .image {
+      margin: 2rem 0 5px 0;
+    }
+
+    .share {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .instructions {
+      padding: 0;
+      text-align: center;
+    }
+
+    .text {
+      margin-top: 2rem;
+    }
   </style>
 </head>
 
 <body>
-  <div class="row">
-    <div class="col s8 offset-s2">
-      <div id="message-show" class="card-panel hide">
-        <h1></h1>
-        <div>
-          <a href="./index.html">Create your own secret message</a>
+  <div class="card-panel teal lighten-2">
+
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <div id="message-show" class="content card-panel hide">
+          <h1></h1>
+          <div>
+            <a href="./index.html">Create your own secret message</a>
+          </div>
         </div>
-      </div>
-      <div id="message-form" class="card-panel">
-        <form>
-          <label>Enter a Secret Message</label>
-          <input id="message-input" />
-          <button class="btn">Create</button>
-        </form>
-      </div>
-      <div id="link-form" class="card-panel hide">
-        <div>
-          Share this link a friend
-          <input id="link-input" />
+        <div id="message-form" class="card-panel z-depth-4">
+          <h4 class="share teal-text text-darken-3">Send someone a message!</h4>
+          <p class="instructions teal-text text-darken-3">Type your message in the field below, click create, and share
+            the link with others!</p>
+          <img class="image circle responsive-img z-depth-4" src="img2.jpg">
+          <form>
+            <label>
+              <p class="text">Enter a Secret Message (TEXT ONLY).</p>
+            </label>
+            <input id="message-input" />
+            <button class="btn">Create</button>
+          </form>
+        </div>
+        <div id="link-form" class="card-panel hide">
+          <div>
+            Share this link a friend
+            <input id="link-input" />
+          </div>
         </div>
       </div>
     </div>
